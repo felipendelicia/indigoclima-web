@@ -17,3 +17,8 @@
 .arialfont {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+  background-image: url("../public/assets/img/home.jpg");
+  background-size: cover;
+}

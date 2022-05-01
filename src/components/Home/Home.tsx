@@ -1,12 +1,12 @@
 import React from 'react'
-import About from './About/About'
 import Contact from './Contact/Contact'
 import FrequentQuestions from './FrequentQuestions/FrequentQuestions'
+import Landing from './Landing/Landing'
 
 const Home = () => {
   return (
-    <div>
-        <About/>
+    <div className="home-container">
+        <Landing/>
         <FrequentQuestions/>
         <Contact/>
     </div>
