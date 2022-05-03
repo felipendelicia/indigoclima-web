@@ -4,11 +4,10 @@ import products from "../Products/products.json"
 import "./Navbar.css"
 
 const Navbar = () => {
-  
+
   const handleScroll = () => {
     let navContainer = document.getElementsByClassName("navbar-container")
     let textScrolled = document.getElementsByClassName("texttoscroll")
-    console.log("hola")
     if(window.pageYOffset>90){
       navContainer[0].classList.add("scrolled")
       for(let i=0;i<textScrolled.length;i++){
@@ -24,6 +23,17 @@ const Navbar = () => {
 
   useEffect(()=>{
     window.addEventListener('scroll', handleScroll)
+  })
+
+  useEffect(()=>{
+    if(window.location.pathname !== "/"){
+      let navContainer = document.getElementsByClassName("navbar-container")
+      let textScrolled = document.getElementsByClassName("texttoscroll")
+      navContainer[0].classList.add("scrolled")
+      for(let i=0;i<textScrolled.length;i++){
+        textScrolled[i].classList.add("blackletter")
+      }
+    }
   })
 
   return (
