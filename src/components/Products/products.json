@@ -1,8 +1,14 @@
 [
     {
-        "name":"Climatizacion de picinas"
+        "id":0,
+        "name":"Climatizacion de picinas",
+        "description":"Utilizando la misma bomba del sistema del filtrado que dispone la piscina, o adicionando una bomba auxiliar, el agua fría es conducida hacia los paneles solares que se encuentran colocados sobre el techo de la vivienda, en donde paulatinamente va a aumentar su temperatura gracias a la energía térmica brindada por el sol. Luego, el agua retorna nuevamente a la piscina con la temperatura confortable que usted desee. Nuestro equipo también incluye un controlador automático de temperatura que va a darle la posibilidad a usted de controlar tanto los horarios de funcionamiento, como la temperatura máxima del agua.",
+        "url":"climatizacion-de-piscinas"
     },
     {
-        "name":"productos 2"
+        "id":1,
+        "name":"producto 2",
+        "description":"",
+        "url":"producto-2"
     }
 ]

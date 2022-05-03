@@ -6,7 +6,7 @@
     align-items: center;
     padding: 0.7em 0;
     transition-property: all;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
     transition-timing-function: linear;
 }
 
@@ -18,7 +18,7 @@
 .list-categories{
     display: flex;
     list-style: none;
-    color:rgb(255, 255, 255);
+    color:#ffffff;
     font-weight: bold;
     transition-property: all;
     transition-duration: 0.5s;
@@ -37,7 +37,7 @@
 .brand-name{
     font-size: 1.5em;
     font-weight: bold;
-    color:rgb(255, 255, 255);
+    color:#ffffff;
     transition-property: all;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -53,5 +53,5 @@
 }
 
 .blackletter{
-    color:rgb(0, 0, 0);
+    color:#000000;
 }

@@ -4,15 +4,23 @@ import Products from "./components/Products/Products";
 
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 
+import products from "./components/Products/products.json"
+
 function App() {
 
   return (
     <div className="App">
-      <Navbar/>
       <BrowserRouter>
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="/products" element={<Products/>}/>
+          {
+            products.map((product,index)=>{
+              return(
+                <Route path={"/"+product.url} element={<Products/>} key={index}/>
+              )
+            })
+          }
         </Routes>
       </BrowserRouter>
     </div>

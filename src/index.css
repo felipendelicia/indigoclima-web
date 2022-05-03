@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 @font-face {
   font-family: 'Comfortaa';
   src: url("../public/assets/font/Comfortaa-Regular.ttf") format("truetype");
