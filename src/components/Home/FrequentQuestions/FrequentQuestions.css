@@ -3,7 +3,12 @@
     padding:5em 1em;
 }
 
+.fq-accordion{
+    text-align: center;
+}
+
 .accordion-item{
+    display: inline-block;
     text-align: center;
     width: 80%;
     height: 100%;
@@ -13,6 +18,7 @@
     transition-property: all;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
+    margin-bottom: 2em;
 }
 
 .accordion-item-q{
@@ -34,17 +40,14 @@
     transition: opacity 1s
 }
 
-.bigger{
-    
-}
-
-.fq-accordion{
-    display: flex;
-    
-}
-
 .accordion-item:hover{
     border-color: #e4b64d;
     padding: 1em 2em;
     cursor: pointer;
+}
+
+@media (min-width: 1000px){
+    .fq-accordion{
+        display: flex
+    }
 }
