@@ -1,18 +1,16 @@
 .products-container{
     height: 100vh;
     background-color: #fff;
-    display: flex;
     justify-items: center;
-    padding: 4em 10em;
+    display: grid;
+    place-content: center;
+    padding: 0 10em;
 }
 
 .product-img{
     width: 50vh;
     border-radius: 5%;
-}
-
-.product{
-    display: flex;
+    margin-bottom: 2em;
 }
 
 .product-img-container{
@@ -26,4 +24,23 @@
     padding: 0.4em 1em;
     border-radius: 5%;
     font-weight: bold;
+}
+
+.product-button-description{
+    padding: 0 2em;
+    font-size: 1.5em;
+}
+
+@media (min-width: 1000px){
+    .product{
+        display: flex
+    }
+    .product-img{
+        width: 50vh;
+        margin-bottom: 0em;
+    }
+    .product-button-description{
+        padding: 0;
+        font-size: 1em
+    }
 }
