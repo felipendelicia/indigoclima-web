@@ -1,7 +1,29 @@
 .products-container{
     height: 100vh;
     background-color: #fff;
+    display: flex;
+    justify-items: center;
+    padding: 4em 10em;
 }
 
 .product-img{
+    width: 50vh;
+    border-radius: 5%;
+}
+
+.product{
+    display: flex;
+}
+
+.product-img-container{
+    margin-right: 2em;
+}
+
+.product-button{
+    margin-top: 1em;
+    background-color: #25D366;
+    display: inline-block;
+    padding: 0.4em 1em;
+    border-radius: 5%;
+    font-weight: bold;
 }

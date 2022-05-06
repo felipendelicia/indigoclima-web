@@ -17,7 +17,7 @@ function App() {
           {
             products.map((product,index)=>{
               return(
-                <Route path={"/"+product.url} element={<Products imgsrc={product.imgsrc} name={product.name}/>} key={index}/>
+                <Route path={"/"+product.url} element={<Products imgsrc={product.imgsrc} name={product.name} description={product.description}/>} key={index}/>
               )
             })
           }
