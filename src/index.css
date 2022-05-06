@@ -1,13 +1,33 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url("../public/assets/font/Comfortaa-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.comfortaafont {
+  font-family: Comfortaa;
+}
+
+.arialfont {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-image: url("../public/assets/img/home.jpg");
+  background-size: cover;
 }

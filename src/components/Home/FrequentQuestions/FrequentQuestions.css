@@ -1,0 +1,53 @@
+.fq-container{
+    background-color: rgb(255, 255, 255);
+    padding:5em 1em;
+}
+
+.fq-accordion{
+    text-align: center;
+}
+
+.accordion-item{
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    margin: 0 0.5em;
+    padding: 1em 0.3em;
+    border: 2.5px solid #5074af;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    margin-bottom: 2em;
+}
+
+.accordion-item-q{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #124ead;
+    margin-bottom: 0.4em;
+}
+
+.accordion-item-r{
+    display: none;
+    opacity: 0; 
+    transition: opacity 1s;
+}
+
+.show{
+    display: block;
+    opacity: 1; 
+    transition: opacity 1s
+}
+
+.accordion-item:hover{
+    border-color: #e4b64d;
+    padding: 1em 2em;
+    cursor: pointer;
+}
+
+@media (min-width: 1000px){
+    .fq-accordion{
+        display: flex
+    }
+}

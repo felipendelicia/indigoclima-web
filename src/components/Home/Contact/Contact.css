@@ -1,0 +1,21 @@
+.contact-container{
+    background-color: #fff;
+    padding: 1em 0;
+}
+
+.contact-field{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.6em;
+    justify-content: center;
+}
+
+.contact-icon{
+    width: 4em;
+    margin-right: 1em;
+}
+
+.contact-text{
+    font-size: 1.6em;
+    color: #5074af;
+}
