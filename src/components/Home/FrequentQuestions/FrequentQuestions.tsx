@@ -21,7 +21,7 @@ const FrequentQuestions = () => {
                   e.currentTarget.lastElementChild?.classList.add("show")
                   fatherNode.add("bigger")
                 }
-              }}>
+              }} key={index}>
                 <div className="accordion-item-q comfortaafont">
                   {element.q}
                 </div>

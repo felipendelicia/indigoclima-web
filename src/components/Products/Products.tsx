@@ -2,13 +2,24 @@ import React from 'react'
 
 import "./Products.css"
 
-import products from "./products.json"
+interface productsProps {
+  name:string,
+  imgsrc:string
+}
 
-const Products = () => {
+const Products = (props:productsProps) => {
   return (
     <div className="products-container">
       <div className="product">
-        
+        <div className="product-img-container">
+          <img className="product-img" src={props.imgsrc} alt={props.name}/>
+        </div>
+        <div className="product-button-description">
+          <div className="product-description">
+          </div>
+          <div className="product-button">
+          </div>
+        </div>
       </div>
     </div>
   )
