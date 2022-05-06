@@ -12,6 +12,14 @@
     width: 100%;
 }
 
+.responsivemodal{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
 .navbar-brand-container {
     display: flex;
     align-items: center;
@@ -56,4 +64,8 @@
 
 .blackletter{
     color:#000000;
+}
+
+.navbar-categories-container{
+    display: block;
 }

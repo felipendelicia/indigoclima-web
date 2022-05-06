@@ -8,6 +8,10 @@ a {
   text-decoration: inherit;
 }
 
+ul {
+  list-style: none;
+}
+
 @font-face {
   font-family: 'Comfortaa';
   src: url("../public/assets/font/Comfortaa-Regular.ttf") format("truetype");
