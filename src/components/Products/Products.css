@@ -1,3 +1,9 @@
+.product-button a{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
 .products-container{
     height: 100vh;
     background-color: #fff;
@@ -8,9 +14,14 @@
 }
 
 .product-img{
-    width: 50vh;
+    width: 34vh;
     border-radius: 5%;
     margin-bottom: 2em;
+}
+
+.product{
+    display: inline-block;
+    text-align: center;
 }
 
 .product-img-container{
@@ -22,18 +33,18 @@
     background-color: #25D366;
     display: inline-block;
     padding: 0.4em 1em;
-    border-radius: 5%;
     font-weight: bold;
 }
 
 .product-button-description{
     padding: 0 2em;
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 @media (min-width: 1000px){
     .product{
-        display: flex
+        display: flex;
+        text-align: inherit
     }
     .product-img{
         width: 50vh;
