@@ -6,16 +6,25 @@
 .contact-field{
     display: flex;
     align-items: center;
-    margin-bottom: 0.6em;
+    margin-bottom: 1.7em;
     justify-content: center;
 }
 
 .contact-icon{
-    width: 4em;
+    width: 5em;
     margin-right: 1em;
 }
 
 .contact-text{
-    font-size: 1.6em;
+    font-size: 2.3em;
     color: #5074af;
+}
+
+@media (min-width: 1000px){
+    .contact-icon{
+        width: 4em;
+    }
+    .contact-text{
+        font-size: 1.6em;
+    }
 }
