@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0.7em 0;
+    padding: 2em 0;
     transition-property: all;
     transition-duration: 0.4s;
     transition-timing-function: linear;
@@ -37,15 +37,15 @@
 
 .list-categorie{
     margin-left: 1.4em;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 .brand-img{
-    width: 2.7em;
+    width: 4em;
 }
 
 .brand-name{
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
     color:#ffffff;
     transition-property: all;
@@ -68,4 +68,22 @@
 
 .navbar-categories-container{
     display: block;
+}
+
+@media (min-width: 1000px){
+    .navbar-container {
+        padding: 0.7em 0;
+    }
+    
+    .list-categorie{
+        font-size: 1em;
+    }
+    
+    .brand-img{
+        width: 2.5em;
+    }
+    
+    .brand-name{
+        font-size: 1.5em;
+    }
 }

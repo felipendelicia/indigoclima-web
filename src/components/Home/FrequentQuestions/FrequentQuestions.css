@@ -10,10 +10,10 @@
 .accordion-item{
     display: inline-block;
     text-align: center;
-    width: 80%;
+    width: 85%;
     height: 100%;
     margin: 0 0.5em;
-    padding: 1em 0.3em;
+    padding: 2em 0.3em;
     border: 2.5px solid #5074af;
     transition-property: all;
     transition-duration: 0.4s;
@@ -23,13 +23,14 @@
 
 .accordion-item-q{
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 2em;
     color: #124ead;
     margin-bottom: 0.4em;
 }
 
 .accordion-item-r{
     display: none;
+    font-size: 1.8em;
     opacity: 0; 
     transition: opacity 1s;
 }
@@ -49,5 +50,17 @@
 @media (min-width: 1000px){
     .fq-accordion{
         display: flex
+    }
+    .accordion-item{
+        width: 80%;
+        margin: 0 0.5em;
+        padding: 1em 0.3em;
+        margin-bottom: 2em;
+    }
+    .accordion-item-q{
+        font-size: 1.2em;
+    }
+    .accordion-item-r{
+        font-size: 1em;
     }
 }
