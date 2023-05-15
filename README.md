@@ -1,27 +1,45 @@
 # Indigo Clima web
 
-## Available Scripts
+Web app de la empresa "Indigo Clima".
 
-In the project directory, you can run:
+## Uso
 
-### `npm start`
+En el directorio del proyecto podemos correr:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    npm start
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Corre el proyecto en modo desarrollador.
+Abrir [http://localhost:3000](http://localhost:3000) para visualizarlo en el navegador.
 
-### `npm test`
+    npm test
 
-Launches the test runner in the interactive watch mode.
+Lanza los test de la aplicacion.
 
-### `npm run build`
+    npm run build
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Crea una build de la app para produccion en la carpeta `build`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    npm run eject
 
-### `npm run eject`
+Elimina la carpeta `build`.
+
+## Estructura de los directorios
+
+├── src\
+│   ├── components\
+│   ├── App.tsx\
+│   ├── index.tsx\
+├── public\
+│   ├── assets\
+│   │   ├── font\
+│   │   ├── img\
+│   ├── index.html\
+├── package.json\
+├── package-lock.json\
+├── tsconfig.json\
+├── .gitignore\
+├── README.md
+
+## Imagenes
+
+![imagen](https://github.com/felipendelicia/indigoclima-web/assets/84806140/6f2d3440-cadf-4171-ac93-679baef680ee)
